@@ -3,15 +3,22 @@
     padding: 0;
 } 
 .header{
-    justify-content: space-between;
+    display: flex;
 }
 .hr{
     height: 5px;
     background-color: #FF7500;
 }
 .navigation ul{
-    position: absolute;
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
 }
 nav{
-    justify-content: flex;
+    
+}
+.nav-li{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
 }
