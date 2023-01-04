@@ -3,22 +3,14 @@
     padding: 0;
 } 
 .header{
-    display: flex;
-}
-.hr{
-    height: 5px;
-    background-color: #FF7500;
-}
-.navigation ul{
-    /* display: flex;
-    justify-content: space-between; */
-    display: flex;
-}
-nav{
-    
+    background-color: #ffffff;
 }
 .nav-li{
-    display: flex;
-    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     text-decoration: none;
+    color: #000;
 }
