@@ -6,6 +6,9 @@ body{
 .header{
     background-color: #ffffff;
 }
+.sitenav-list{
+    list-style: none;
+}
 .nav-li{
     font-weight: 500;
     font-size: 13px;
@@ -103,13 +106,22 @@ body{
     height: 440px;
     object-fit: cover;
 }
-.site-footer{
+.site-footer {
     background-color: #f8f8f8;
+}
+.site-footer ul{
+    list-style: none;
 }
 .site-footer-hr{
     background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
 }
-a{
+.site-footer-links {
+    width: 224px;
+}
+.site-footer-links a{
+    font-style: 16px;
+    line-height: 19px;
     text-decoration: none;
+    color: #252420;
 }
