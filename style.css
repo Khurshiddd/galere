@@ -8,10 +8,18 @@ body{
 
 .header{
     background-color: #ffffff;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header-action{
+    display: flex;
+    align-items: center;
+
 }
 .sitenav-list{
     list-style: none;
+    display: flex;
 }
 .nav-li{
     font-weight: 500;
@@ -32,7 +40,11 @@ body{
 .hero{
     background-color: #252420;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .hero-content{
     width: 390px;
 }
@@ -50,7 +62,12 @@ body{
     line-height: 1.2;
     font-family: 'Roboto Condensed','Roboto','Arial', sans-serif;
 }
-
+.future-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
 .future{
     width: 340px;   
 }
@@ -83,6 +100,9 @@ body{
     height: 419px; */
     background-color: #252420;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .promo-content{
     width: 440px;
@@ -104,6 +124,14 @@ body{
 .site-footer {
     background-color: #f8f8f8;
 }
+.site-footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials{
+    display: flex;
+}
 .site-footer ul{
     list-style: none;
 }
@@ -115,8 +143,12 @@ body{
     width: 224px;
     line-height: 19px;
 }
+.site-footer-bottom{
+    display: flex;
+}
 .site-footer-links a{
     text-decoration: none;
     color: #252420;
+    width: 224px;
 }
 
