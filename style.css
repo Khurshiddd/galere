@@ -29,6 +29,14 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
+    transition: 0.4s ease,
+    opacity 0.4s ease;
+}
+.nav-li:hover{
+    color: #FF7500;
+}
+.nav-li:active{
+    opacity: 0.6;
 }
 .main-link{
     font-size: 13px;
@@ -152,3 +160,13 @@ body{
     width: 224px;
 }
 
+
+.logo-link{
+    transition: 0.4s ease;
+}
+.logo-link:hover{
+    opacity: 0.8    ;
+}
+.logo-link:active{
+    opacity: 0.6 ;
+}
