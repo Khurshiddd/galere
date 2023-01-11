@@ -5,7 +5,10 @@ body{
     line-height: 1.5;
     font-family: "Roboto","Arial",sans-serif;
 }
-
+*:focus{
+    outline: #ff7500 dotted 2px;
+    outline-offset: 3px;
+}
 .header{
     background-color: #ffffff;
     display: flex;
@@ -178,7 +181,7 @@ body{
 .site-footer-links a:hover{
     color: #FF7500;
 }
-.site-footer-links a:focus{
+.site-footer-links a:active{
     opacity: 0.6;
 }
 .logo-link{
