@@ -119,7 +119,7 @@ body{
     margin-right: 40px;
 }
 .future:last-child{
-    margin: 0;
+    margin-right: 0;
 }
 .features-heding{
     font-weight: 700;
@@ -211,7 +211,7 @@ body{
     margin-right: 16px;
 }
 .socials li:last-child{
-    margin: 0;
+    margin-right: 0;
 }
 .socials a {
     color: #252420;
@@ -243,7 +243,7 @@ body{
     margin-right: 68px;
 }
 .site-footer-links:last-child{
-    margin: 0;
+    margin-right: 0;
 }
 .site-footer-bottom{
     display: flex;
