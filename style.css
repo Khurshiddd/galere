@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-style: 16px;
     line-height: 1.5;
     font-family: "Roboto","Arial",sans-serif;
@@ -14,6 +14,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: #FF7500 5px solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .site-header-action{
     display: flex;
@@ -27,6 +30,7 @@ body{
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
+    padding: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
@@ -41,12 +45,17 @@ body{
     opacity: 0.6;
 }
 .main-link{
+    display: inline-block;
+    padding: 12px 24px;
     font-size: 13px;
     line-height: 15;
+    border-radius: 4px;
+    font-weight: bold;
     background-color: #ff7500;
     color: #fff;
     text-decoration: none;
     transition: opacity 0.4s ease;
+    line-height: normal;
 }
 .main-link:hover{
     opacity: 0.8;
@@ -68,11 +77,13 @@ body{
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 .hr{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
+    border: 0;
 }
 .hero-heading{
     font-size: 40px;
@@ -84,9 +95,10 @@ body{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
 .future{
-    width: 340px;   
+    width: 340px;  
 }
 .features-heding{
     font-weight: 700;
@@ -94,16 +106,22 @@ body{
     line-height: 120%;
     color: #000000;
     width: 440px;
-    word-spacing: 0.5;
+    letter-spacing: 0.5;
     font-family: 'Roboto Condensed','Roboto','Arial', sans-serif;
 }
 .features{
     background-color: #fff;
     color: #000;
+    padding-top: 210px; 
+    padding-bottom: 210px;
 }
 .future-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     background-color: rgba(255, 117, 0, 0.2);
 }
 .future-title{
@@ -120,6 +138,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 12px;
 }
 .promo-content{
     width: 440px;
@@ -137,8 +156,11 @@ body{
     width: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 .site-footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
 }
 .site-footer-top{
@@ -149,6 +171,7 @@ body{
 .socials{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 .socials a {
     color: #252420;
@@ -161,10 +184,12 @@ body{
 }
 .site-footer ul{
     list-style: none;
+    padding: 0;
 }
 .site-footer-hr{
     background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
+    border: 0;
 }
 .site-footer-links {
     width: 224px;
