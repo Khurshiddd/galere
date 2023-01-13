@@ -215,12 +215,16 @@ body{
 }
 .socials a {
     color: #252420;
+    display: block;
 }
 .socials a:hover{
     color: #ff7500;
 }
 .socials a:active{
     opacity: 0.6;
+}
+.socials svg{
+    display: block;
 }
 .site-footer ul{
     list-style: none;
@@ -267,4 +271,7 @@ body{
 }
 .logo-link:active{
     opacity: 0.6 ;
+}
+.logo-link img{
+    display: block;
 }
