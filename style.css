@@ -187,7 +187,7 @@ body{
     align-items: center;
     background-color: #252420;
     border-radius: 12px;
-    padding: 64px;
+    padding: 0 64px;
     color: #fff;
 }
 .promo-content{
